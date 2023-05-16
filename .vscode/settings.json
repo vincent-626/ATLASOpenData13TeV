@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "HyyAnalysis.C": "cpp",
+        "HWWAnalysis.C": "cpp",
+        "TTbarAnalysis.C": "cpp"
+    }
+}
