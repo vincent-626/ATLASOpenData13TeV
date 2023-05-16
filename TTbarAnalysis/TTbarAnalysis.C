@@ -15,7 +15,7 @@ float ComputeSystMTW();
 
 
 void TTbarAnalysis() {
-    TString inDir = "/home/vincent626/opendata/atlas2020/1lep/";
+    TString inDir = "/Users/vincent626/Code/CERN/opendata/ATLASOpenData13TeV/Samples/1lep/";
 
     // Data Samples
     Analyze(inDir + "Data/data_A.1lep.root", "data_A.1lep");

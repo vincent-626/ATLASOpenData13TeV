@@ -15,7 +15,7 @@ float ComputePtLL(RVecF, RVecF, RVecF, RVecF);
 float ComputeMt(RVecF, RVecF, RVecF, RVecF, float, float);
 
 void HWWAnalysis() {
-    TString inDir = "/home/vincent626/opendata/atlas2020/2lep/";
+    TString inDir = "/Users/vincent626/Code/CERN/opendata/ATLASOpenData13TeV/Samples/2lep/";
 
     // Data Samples
     Analyze(inDir + "Data/data_A.2lep.root", "data_A.2lep");

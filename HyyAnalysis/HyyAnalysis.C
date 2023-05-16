@@ -10,7 +10,7 @@ float ComputeInvMass(RVecF, RVecF, RVecF, RVecF);
 void Analyze(TString, TString);
 
 void HyyAnalysis() {
-    TString inDir = "/home/vincent626/opendata/atlas2020/GamGam/";
+    TString inDir = "/Users/vincent626/Code/CERN/opendata/ATLASOpenData13TeV/Samples/GamGam/";
 
     // Data Samples
     Analyze(inDir + "Data/data_A.GamGam.root", "data_A.GamGam");
