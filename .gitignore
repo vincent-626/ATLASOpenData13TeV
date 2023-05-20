@@ -1,1 +1,4 @@
 *.DS_Store
+*.d
+*_ACLiC_dict_rdict.pcm
+*.json

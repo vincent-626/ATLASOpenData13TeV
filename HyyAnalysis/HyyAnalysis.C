@@ -63,7 +63,7 @@ void Analyze(TString inFile, TString sampleName) {
     auto histMass = selected.Histo1D({"mass", "m_yy", 55u, 105., 160.}, "m_yy", "weight");
 
     // Save Histogram
-    TString output_name = sampleName + ".root";
+    TString output_name = "Output/" + sampleName + ".root";
     TFile physicsOutput(output_name, "recreate");
     histMass->Write();
     physicsOutput.Close();
